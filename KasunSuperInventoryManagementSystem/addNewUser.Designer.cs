@@ -44,12 +44,14 @@
             label2 = new Label();
             label1 = new Label();
             dataGridView1 = new DataGridView();
+            button2 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(button2);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(textBox6);
@@ -81,7 +83,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(190, 511);
+            button1.Location = new Point(95, 516);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 12;
@@ -196,6 +198,16 @@
             dataGridView1.Size = new Size(634, 592);
             dataGridView1.TabIndex = 1;
             // 
+            // button2
+            // 
+            button2.Location = new Point(275, 516);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 34);
+            button2.TabIndex = 14;
+            button2.Text = "Delete User";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // addNewUser
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -231,5 +243,6 @@
         private Button button1;
         private Label label7;
         private DataGridView dataGridView1;
+        private Button button2;
     }
 }
