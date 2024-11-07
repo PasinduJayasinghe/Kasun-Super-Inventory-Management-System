@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{89BD0E52-BD2E-4C69-A9E2-85146D5E18E2}|KasunSuperInventoryManagementSystem\\KasunSuperInventoryManagementSystem.csproj|c:\\users\\thisa\\onedrive\\desktop\\bit project\\kasunsuperinventorymanagementsystem\\kasunsuperinventorymanagementsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{89BD0E52-BD2E-4C69-A9E2-85146D5E18E2}|KasunSuperInventoryManagementSystem\\KasunSuperInventoryManagementSystem.csproj|solutionrelative:kasunsuperinventorymanagementsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F51D9BC24D135A2300E7D1B159523841_T_PROJECT_KASUNSUPERINVENTORYMANAGEMENTSYSTEM_KASUNSUPERINVENTORYMANAGEMENTSYSTEM_INVENTORY.MDF/True/SqlTable/dbo.registration.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +28,18 @@
               "ToolTip": "C:\\Users\\thisa\\OneDrive\\Desktop\\Bit Project\\KasunSuperInventoryManagementSystem\\KasunSuperInventoryManagementSystem\\Login.cs [Design]",
               "RelativeToolTip": "KasunSuperInventoryManagementSystem\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T14:50:01.804Z",
+              "WhenOpened": "2024-11-07T05:03:21.284Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.registration [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F51D9BC24D135A2300E7D1B159523841_T_PROJECT_KASUNSUPERINVENTORYMANAGEMENTSYSTEM_KASUNSUPERINVENTORYMANAGEMENTSYSTEM_INVENTORY.MDF/True/SqlTable/dbo.registration.sql",
+              "ToolTip": "dbo.registration [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-07T04:57:04.009Z",
+              "EditorCaption": ""
             }
           ]
         }

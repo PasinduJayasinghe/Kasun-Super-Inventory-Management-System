@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/KasunSuperInventoryManagementSystem/FileContentIndex/1c28417f-6a1e-42cf-9bef-6837467ee4ef.vsidx
+/.vs/KasunSuperInventoryManagementSystem/FileContentIndex/e99854c8-3cac-415b-8c0f-5471998cd29a.vsidx
+*.vsidx
