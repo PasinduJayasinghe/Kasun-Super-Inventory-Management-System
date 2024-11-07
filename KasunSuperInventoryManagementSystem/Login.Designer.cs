@@ -81,11 +81,13 @@
             button1.TabIndex = 4;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // passwordtextBox
             // 
             passwordtextBox.Location = new Point(240, 233);
             passwordtextBox.Name = "passwordtextBox";
+            passwordtextBox.PasswordChar = '*';
             passwordtextBox.Size = new Size(150, 31);
             passwordtextBox.TabIndex = 3;
             // 
@@ -95,6 +97,7 @@
             userNametextBox.Name = "userNametextBox";
             userNametextBox.Size = new Size(150, 31);
             userNametextBox.TabIndex = 2;
+            userNametextBox.TextChanged += userNametextBox_TextChanged;
             // 
             // label2
             // 
@@ -124,6 +127,7 @@
             Controls.Add(pictureBox1);
             Name = "Login";
             Text = "Form1";
+            Load += Login_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
