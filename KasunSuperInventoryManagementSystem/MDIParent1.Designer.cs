@@ -30,11 +30,13 @@
         {
             components = new System.ComponentModel.Container();
             menuStrip = new MenuStrip();
+            userToolStripMenuItem = new ToolStripMenuItem();
+            addNewUserToolStripMenuItem = new ToolStripMenuItem();
             statusStrip = new StatusStrip();
             toolStripStatusLabel = new ToolStripStatusLabel();
             toolTip = new ToolTip(components);
-            userToolStripMenuItem = new ToolStripMenuItem();
-            addNewUserToolStripMenuItem = new ToolStripMenuItem();
+            unitToolStripMenuItem = new ToolStripMenuItem();
+            addUnitToolStripMenuItem = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             statusStrip.SuspendLayout();
             SuspendLayout();
@@ -42,13 +44,27 @@
             // menuStrip
             // 
             menuStrip.ImageScalingSize = new Size(24, 24);
-            menuStrip.Items.AddRange(new ToolStripItem[] { userToolStripMenuItem });
+            menuStrip.Items.AddRange(new ToolStripItem[] { userToolStripMenuItem, unitToolStripMenuItem });
             menuStrip.Location = new Point(0, 0);
             menuStrip.Name = "menuStrip";
             menuStrip.Padding = new Padding(10, 4, 0, 4);
             menuStrip.Size = new Size(1247, 37);
             menuStrip.TabIndex = 0;
             menuStrip.Text = "MenuStrip";
+            // 
+            // userToolStripMenuItem
+            // 
+            userToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addNewUserToolStripMenuItem });
+            userToolStripMenuItem.Name = "userToolStripMenuItem";
+            userToolStripMenuItem.Size = new Size(63, 29);
+            userToolStripMenuItem.Text = "User";
+            // 
+            // addNewUserToolStripMenuItem
+            // 
+            addNewUserToolStripMenuItem.Name = "addNewUserToolStripMenuItem";
+            addNewUserToolStripMenuItem.Size = new Size(270, 34);
+            addNewUserToolStripMenuItem.Text = "Add New User";
+            addNewUserToolStripMenuItem.Click += addNewUserToolStripMenuItem_Click;
             // 
             // statusStrip
             // 
@@ -67,19 +83,19 @@
             toolStripStatusLabel.Size = new Size(60, 25);
             toolStripStatusLabel.Text = "Status";
             // 
-            // userToolStripMenuItem
+            // unitToolStripMenuItem
             // 
-            userToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addNewUserToolStripMenuItem });
-            userToolStripMenuItem.Name = "userToolStripMenuItem";
-            userToolStripMenuItem.Size = new Size(63, 29);
-            userToolStripMenuItem.Text = "User";
+            unitToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addUnitToolStripMenuItem });
+            unitToolStripMenuItem.Name = "unitToolStripMenuItem";
+            unitToolStripMenuItem.Size = new Size(60, 29);
+            unitToolStripMenuItem.Text = "Unit";
             // 
-            // addNewUserToolStripMenuItem
+            // addUnitToolStripMenuItem
             // 
-            addNewUserToolStripMenuItem.Name = "addNewUserToolStripMenuItem";
-            addNewUserToolStripMenuItem.Size = new Size(270, 34);
-            addNewUserToolStripMenuItem.Text = "Add New User";
-            addNewUserToolStripMenuItem.Click += addNewUserToolStripMenuItem_Click;
+            addUnitToolStripMenuItem.Name = "addUnitToolStripMenuItem";
+            addUnitToolStripMenuItem.Size = new Size(270, 34);
+            addUnitToolStripMenuItem.Text = "Add Unit";
+            addUnitToolStripMenuItem.Click += addUnitToolStripMenuItem_Click;
             // 
             // MDIParent1
             // 
@@ -111,6 +127,8 @@
         private System.Windows.Forms.ToolTip toolTip;
         private ToolStripMenuItem userToolStripMenuItem;
         private ToolStripMenuItem addNewUserToolStripMenuItem;
+        private ToolStripMenuItem unitToolStripMenuItem;
+        private ToolStripMenuItem addUnitToolStripMenuItem;
     }
 }
 

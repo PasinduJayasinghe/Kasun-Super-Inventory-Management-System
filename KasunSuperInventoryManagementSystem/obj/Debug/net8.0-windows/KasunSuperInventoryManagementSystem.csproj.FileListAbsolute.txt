@@ -26,3 +26,5 @@ C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\
 C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSup.C19FBBAF.Up2Date
 C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.addNewUser.resources
+C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.Unit.resources
+C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.AddProductName.resources

@@ -68,12 +68,12 @@ namespace KasunSuperInventoryManagementSystem
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -118,6 +118,12 @@ namespace KasunSuperInventoryManagementSystem
         {
             addNewUser au = new addNewUser();
             au.Show();
+        }
+
+        private void addUnitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Unit unit = new Unit();
+            unit.Show();  
         }
     }
 }
