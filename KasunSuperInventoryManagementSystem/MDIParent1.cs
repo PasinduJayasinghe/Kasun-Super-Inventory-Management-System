@@ -123,7 +123,32 @@ namespace KasunSuperInventoryManagementSystem
         private void addUnitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Unit unit = new Unit();
-            unit.Show();  
+            unit.Show();
+        }
+
+        private void addProductNameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddProductName apn = new AddProductName();
+            apn.Show();
+        }
+
+        private void dealerInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DealerInfo di = new DealerInfo();
+            di.Show();
+        }
+
+        private void purchaseProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PurchaseMaster pm = new PurchaseMaster();
+            pm.Show();
+
+        }
+
+        private void salesProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sales ss = new Sales();
+            ss.Show();
         }
     }
 }

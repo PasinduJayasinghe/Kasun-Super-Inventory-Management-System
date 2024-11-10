@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\thisa\\OneDrive\\Desktop\\Bit Project\\KasunSuperInventoryManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89BD0E52-BD2E-4C69-A9E2-85146D5E18E2}|KasunSuperInventoryManagementSystem\\KasunSuperInventoryManagementSystem.csproj|c:\\users\\thisa\\onedrive\\desktop\\bit project\\kasunsuperinventorymanagementsystem\\kasunsuperinventorymanagementsystem\\purchasereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89BD0E52-BD2E-4C69-A9E2-85146D5E18E2}|KasunSuperInventoryManagementSystem\\KasunSuperInventoryManagementSystem.csproj|solutionrelative:kasunsuperinventorymanagementsystem\\purchasereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PurchaseReport.cs",
+              "DocumentMoniker": "C:\\Users\\thisa\\OneDrive\\Desktop\\Bit Project\\KasunSuperInventoryManagementSystem\\KasunSuperInventoryManagementSystem\\PurchaseReport.cs",
+              "RelativeDocumentMoniker": "KasunSuperInventoryManagementSystem\\PurchaseReport.cs",
+              "ToolTip": "C:\\Users\\thisa\\OneDrive\\Desktop\\Bit Project\\KasunSuperInventoryManagementSystem\\KasunSuperInventoryManagementSystem\\PurchaseReport.cs",
+              "RelativeToolTip": "KasunSuperInventoryManagementSystem\\PurchaseReport.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAjwFUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:41:13.231Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -36,11 +36,11 @@
             label1 = new Label();
             dataGridView1 = new DataGridView();
             panel2 = new Panel();
-            textBox2 = new TextBox();
-            comboBox2 = new ComboBox();
-            label3 = new Label();
-            label4 = new Label();
             button2 = new Button();
+            label4 = new Label();
+            label3 = new Label();
+            comboBox2 = new ComboBox();
+            textBox2 = new TextBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel2.SuspendLayout();
@@ -60,7 +60,8 @@
             // 
             // button1
             // 
-            button1.Location = new Point(885, 106);
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button1.Location = new Point(904, 57);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 4;
@@ -71,14 +72,14 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(847, 49);
+            comboBox1.Location = new Point(659, 58);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(182, 33);
             comboBox1.TabIndex = 3;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(351, 49);
+            textBox1.Location = new Point(254, 58);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(226, 31);
             textBox1.TabIndex = 2;
@@ -86,9 +87,10 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(690, 52);
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label2.Location = new Point(538, 64);
             label2.Name = "label2";
-            label2.Size = new Size(95, 25);
+            label2.Size = new Size(104, 25);
             label2.TabIndex = 1;
             label2.Text = "Select Unit";
             label2.Click += label2_Click;
@@ -96,9 +98,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(121, 49);
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label1.Location = new Point(44, 61);
             label1.Name = "label1";
-            label1.Size = new Size(171, 25);
+            label1.Size = new Size(184, 25);
             label1.TabIndex = 0;
             label1.Text = "Enter Product Name";
             // 
@@ -126,12 +129,36 @@
             panel2.TabIndex = 2;
             panel2.Visible = false;
             // 
-            // textBox2
+            // button2
             // 
-            textBox2.Location = new Point(305, 80);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 0;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button2.Location = new Point(197, 305);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 34);
+            button2.TabIndex = 4;
+            button2.Text = "Update";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label4.Location = new Point(91, 199);
+            label4.Name = "label4";
+            label4.Size = new Size(104, 25);
+            label4.TabIndex = 3;
+            label4.Text = "Select Unit";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label3.Location = new Point(91, 80);
+            label3.Name = "label3";
+            label3.Size = new Size(134, 25);
+            label3.TabIndex = 2;
+            label3.Text = "Product Name";
             // 
             // comboBox2
             // 
@@ -141,38 +168,18 @@
             comboBox2.Size = new Size(182, 33);
             comboBox2.TabIndex = 1;
             // 
-            // label3
+            // textBox2
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(91, 80);
-            label3.Name = "label3";
-            label3.Size = new Size(126, 25);
-            label3.TabIndex = 2;
-            label3.Text = "Product Name";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(91, 199);
-            label4.Name = "label4";
-            label4.Size = new Size(95, 25);
-            label4.TabIndex = 3;
-            label4.Text = "Select Unit";
-            // 
-            // button2
-            // 
-            button2.Location = new Point(197, 305);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 4;
-            button2.Text = "Update";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            textBox2.Location = new Point(305, 80);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(182, 31);
+            textBox2.TabIndex = 0;
             // 
             // AddProductName
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Aquamarine;
             ClientSize = new Size(1248, 713);
             Controls.Add(panel2);
             Controls.Add(dataGridView1);

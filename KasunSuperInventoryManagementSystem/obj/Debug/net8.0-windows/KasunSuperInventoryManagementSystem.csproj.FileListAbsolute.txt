@@ -28,3 +28,8 @@ C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\
 C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.addNewUser.resources
 C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.Unit.resources
 C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.AddProductName.resources
+C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.DealerInfo.resources
+C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.PurchaseMaster.resources
+C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.Sales.resources
+C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.GeneratePurchaseReport.resources
+C:\Users\thisa\OneDrive\Desktop\Bit Project\KasunSuperInventoryManagementSystem\KasunSuperInventoryManagementSystem\obj\Debug\net8.0-windows\KasunSuperInventoryManagementSystem.PurchaseReport.resources

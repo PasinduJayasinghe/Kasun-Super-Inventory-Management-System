@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            button2 = new Button();
             label7 = new Label();
             button1 = new Button();
             textBox6 = new TextBox();
@@ -44,7 +45,6 @@
             label2 = new Label();
             label1 = new Label();
             dataGridView1 = new DataGridView();
-            button2 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -72,17 +72,30 @@
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button2.Location = new Point(275, 516);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 34);
+            button2.TabIndex = 14;
+            button2.Text = "Delete User";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(176, 54);
+            label7.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            label7.Location = new Point(135, 60);
             label7.Name = "label7";
-            label7.Size = new Size(126, 25);
+            label7.Size = new Size(220, 41);
             label7.TabIndex = 13;
             label7.Text = "Add New User";
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button1.Location = new Point(95, 516);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
@@ -136,27 +149,30 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label6.Location = new Point(71, 453);
             label6.Name = "label6";
-            label6.Size = new Size(73, 25);
+            label6.Size = new Size(78, 25);
             label6.TabIndex = 5;
             label6.Text = "Contact";
             // 
             // label5
             // 
             label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label5.Location = new Point(73, 392);
             label5.Name = "label5";
-            label5.Size = new Size(54, 25);
+            label5.Size = new Size(58, 25);
             label5.TabIndex = 4;
             label5.Text = "Email";
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label4.Location = new Point(71, 328);
             label4.Name = "label4";
-            label4.Size = new Size(87, 25);
+            label4.Size = new Size(92, 25);
             label4.TabIndex = 3;
             label4.Text = "Password";
             label4.Click += label4_Click;
@@ -164,9 +180,10 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label3.Location = new Point(73, 265);
             label3.Name = "label3";
-            label3.Size = new Size(99, 25);
+            label3.Size = new Size(105, 25);
             label3.TabIndex = 2;
             label3.Text = "User Name";
             label3.Click += label3_Click;
@@ -174,18 +191,20 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label2.Location = new Point(73, 202);
             label2.Name = "label2";
-            label2.Size = new Size(95, 25);
+            label2.Size = new Size(101, 25);
             label2.TabIndex = 1;
             label2.Text = "Last Name";
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label1.Location = new Point(71, 141);
             label1.Name = "label1";
-            label1.Size = new Size(97, 25);
+            label1.Size = new Size(103, 25);
             label1.TabIndex = 0;
             label1.Text = "First Name";
             // 
@@ -197,16 +216,6 @@
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(634, 592);
             dataGridView1.TabIndex = 1;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(275, 516);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 14;
-            button2.Text = "Delete User";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // addNewUser
             // 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KasunSuperInventoryManagementSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cc55ed322dda584e311003481a2195abc819cb5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbacce8856bd51c101e5f985bab35069877ca101")]
 [assembly: System.Reflection.AssemblyProductAttribute("KasunSuperInventoryManagementSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KasunSuperInventoryManagementSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

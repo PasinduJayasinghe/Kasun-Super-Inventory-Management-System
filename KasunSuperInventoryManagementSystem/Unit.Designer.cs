@@ -39,21 +39,23 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label1.Location = new Point(98, 83);
             label1.Name = "label1";
-            label1.Size = new Size(83, 25);
+            label1.Size = new Size(88, 25);
             label1.TabIndex = 0;
             label1.Text = "Add Unit";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(293, 83);
+            textBox1.Location = new Point(259, 80);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
+            textBox1.Size = new Size(237, 31);
             textBox1.TabIndex = 1;
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button1.Location = new Point(223, 201);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
@@ -73,6 +75,7 @@
             // 
             // button2
             // 
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button2.Location = new Point(148, 289);
             button2.Name = "button2";
             button2.Size = new Size(295, 34);
